@@ -8,7 +8,7 @@ void solidDisplay(float x, float y, float w, float h, int band) {
 void solidWindow(float x, float y, float w, float h) {
   pushMatrix();
   translate(x, y);
-  int nbSolids = 13;
+  int nbSolids = 5;
   for (int i = 0; i < nbSolids; i++) {
     float solidWidth = w / nbSolids;
     float solidHeight = h;
