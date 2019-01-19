@@ -8,6 +8,7 @@ void layerSetup() {
 void layerDisplay(float x, float y, float w, float h) {
    noStroke();
    fill(255);
+   translate(x, y);
    String layer = "Layer ";
    // TODO
    // centrer le texte horizontalement et verticalement

@@ -1,6 +1,6 @@
 float cubesAngle;
 
-void cubesDisplay(int w, int h, int b) {
+void cubesDisplay(float w, float h, int b) {
   fill(0);
   stroke(255);
   float energy = fft.spectrum[b];
@@ -19,7 +19,7 @@ void cubesDisplay(int w, int h, int b) {
   cubesAngle += 0.010;
 }
 
-void cubesWindow(int x, int y, int w, int h) {
+void cubesWindow(float x, float y, float w, float h) {
   int band = 2;
   pushMatrix();
   translate(x, y);

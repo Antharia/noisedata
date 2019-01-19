@@ -7,7 +7,6 @@ void sphereSetup() {
   for (int i = 0; i < nbEllipses; i++) {
     speeds[i] = random(10)/10;
   }
-  
 }
 
 void sphereDisplay(float w, float h, int band) {
@@ -15,7 +14,7 @@ void sphereDisplay(float w, float h, int band) {
   fill(255, 15);
 
   float energy = fft.spectrum[band];
-  
+
   pushMatrix();
   translate(w/2, h/2);
   for (int i=0; i < nbEllipses; i++) {
@@ -34,6 +33,7 @@ void sphereWindow(float x, float y, float w, float h) {
   pushMatrix();
   translate(x, y);
   stroke(255);
+  strokeWeight(1);
   noFill();
   rect(0, 0, w, h);
   sphereDisplay(w, h, band);
