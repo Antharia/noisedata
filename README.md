@@ -1,6 +1,6 @@
 # noisedata
 Live Audio/Visual
-![noisedata screenshot](https://raw.githubusercontent.com/Antharia/sketches/master/Capture%20d%E2%80%99e%CC%81cran%202019-05-08%20a%CC%80%2021.39.25.png)
+![noisedata screenshot](https://github.com/Antharia/noisedata/blob/master/noisedata_screenshot.png)
 ## introduction
 your attention please  
 you are going to hear some noise  
